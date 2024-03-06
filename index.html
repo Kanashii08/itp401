@@ -1,36 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Jan Clyde O Villavelez</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
     <style>
-        body { 
-            background-color: #f0f0f0; 
-            text-align: center; 
+        body {
+            background-color: #f0f0f0; /* Change this to your desired background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        header { 
-            background-color: #c1c1c1; 
+
+        header, footer {
+            background-color: #333; /* Change this to your desired background color */
+            color: white;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            text-align: center; /* Center align the content */
         }
-        nav { 
-            background-color: #a1a1a1; 
+
+        section {
+            background-color: #fff; /* Change this to your desired background color */
+            padding: 20px;
+            border-radius: 10px;
         }
-        footer { 
-            background-color: #c1c1c1; 
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #333; /* Change this to your desired link color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #555; /* Change this to your desired link hover color */
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Jan Clyde O Villavelez</h1>
+        <h1>Jan Clyde O. Villavelez</h1>
     </header>
-    <nav>
+
+    <section>
+        <h2>My Projects</h2>
         <ul>
-            <li><a href="#">My Projects</a>
-                <ul>
-                    <li><a href="aboutme.html">Prelim Exam</a></li>
-                </ul>
-            </li>
+            <li><a href="aboutme.html">Prelim Exam</a></li>
+            <!-- Add more project links as needed -->
         </ul>
-    </nav>
+    </section>
+
     <footer>
         <p>© 2024 ITP4</p>
     </footer>
