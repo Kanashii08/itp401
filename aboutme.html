@@ -1,56 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel='stylesheet' href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            background-color: #f0f0f0; /* Change this to your desired background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
+        header, footer {
+            background-color: #333; /* Change this to your desired background color */
+            color: white;
+            padding: 20px;
+            width: 80%;
+            border-radius: 10px;
+            text-align: center; /* Center align the content */
+        }
+
+        section {
+            background-color: #fff; /* Change this to your desired background color */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #333; /* Change this to your desired link color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #555; /* Change this to your desired link hover color */
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Jan Clyde O. Villavelez</h1>
+    </header>
 
-<div class="header">
-  <h1>Jan Clyde O. Villavelez</h1>
-</div>
+    <section>
+        <h2>My Projects</h2>
+        <ul>
+            <li><a href="aboutme.html">Prelim Exam</a></li>
+            <!-- Add more project links as needed -->
+        </ul>
+    </section>
 
-<div class="row">
-  <div class="col-3 col-s-3 menu">
-    <ul>
-      <a href="aboutme.html"><li>About Me</li></a>
-      <a href="subjecttakenn.html"><li>Subject Taken</li></a>
-      <a href="enrolled.html"><li>Subject Enrolled</li></a>
-      <a href="contactme.html"><li>Contact Me</li></a>
-	  <a href="favorites.html"><li>My Favorites</li></a>
-	  <a href="Gallerry.html"><li>My Gallery</li></a>
-    </ul>
-  </div>
-
-  <div class="col-2 col-s-10">
-    <h1>About Me</h1>
-    <b><img src="brof.jpg" style="width:200px;height:300px;"></h4>
-  </div>
-
-  <div class="col-5 col-s-3">
-    <div class="aside">
-      <h2>
-Name: Jan Clyde O. Villavelez<br>
-<br>
-Age: 19 years old<br><br>
-Date of Birth: August 06, 2004<br><br>
-Place of Birth: Gango, Ozamiz City<br><br>
-E-mail Address: villavelezjanclyde08@gmail.com<br><br>
-Student ID: 2201221<br><br>
-College Department: College of Computer Studies<br><br>
-Program taken: Bachelor of Science in Information Technology---2nd year<br><br>
-School: Misamis University<br><br>
-Permanent Address: Purok 7, Gango, Ozamiz, Misamis Occidental
-
-	  </h2>
-    </div>
-  </div>
-</div>
-
-<div class="footer">
-  <p> © 2023-2024 ITP4 | All Rights Reserved</p>
-</div>
-
+    <footer>
+        <p>© 2024 ITP4</p>
+    </footer>
 </body>
 </html>
