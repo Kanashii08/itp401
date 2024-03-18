@@ -1,0 +1,1282 @@
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicons -->
+    <link href="https://www.sanjuancity.gov.ph/SanJuanCity/assets/sjc.png" rel="icon">
+    <link href="https://www.sanjuancity.gov.ph/SanJuanCity/assets/sjc.png" rel="apple-touch-icon">
+    <title>
+      San Juan City
+    </title>
+    <!--     Fonts and icons     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- Nucleo Icons -->
+    <link rel="stylesheet" href="https://www.sanjuancity.gov.ph/SanJuanCity/vendor/nucleo/css/nucleo.css" type="text/css">
+    <link rel="stylesheet" href="https://www.sanjuancity.gov.ph/SanJuanCity/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
+    <!-- CSS Files -->
+    <link href="https://www.sanjuancity.gov.ph/SanJuanCity/css/argon-design-system.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://www.sanjuancity.gov.ph/SanJuanCity/css/dev_h.css">
+    <link rel="stylesheet" type="text/css" href="https://www.sanjuancity.gov.ph/SanJuanCity/css/makabagong_sj_index.css">
+    <link href="https://www.sanjuancity.gov.ph/SanJuanCity/css/evo-calendar.royal-navy.min.css" rel="stylesheet">
+    <link href="https://www.sanjuancity.gov.ph/SanJuanCity/css/evo-calendar.min.css" rel="stylesheet">
+    <link href="https://www.sanjuancity.gov.ph/SanJuanCity/css/evo-calendar.css" rel="stylesheet">
+    <link href="https://www.sanjuancity.gov.ph/SanJuanCity/css/evo-calendar.royal-navy.css" rel="stylesheet">
+
+
+<style>
+  html 
+  {
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+  }        
+</style>
+ <!-- Navbar -->
+<div class="sticky-top" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-1">
+      <div class="container col-12">
+        <div class="ml-lg-auto">
+          <div id='date-part' class="font-weight-bold text-light"></div>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bgcolor fix-top mb-1 shadow" id="fixed-top" style="border-color: #A2A6B0 !important;">
+      <div class="container col-12">
+        <a class="navbar-brand mr-lg-5" href="san1.html">
+          <img src="https://www.sanjuancity.gov.ph/SanJuanCity/assets/lbp.png">
+        </a>
+        <button class="navbar-toggler bg-default" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-default">
+          <div class="navbar-collapse-header">
+            <div class="row">
+              <div class="col-6 collapse-close">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="san2.html"> About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="sanbara.html">Barangay Maps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="sanfes.html">Festivities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="sansho.html">San Juan Shops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-icon" href="sancon.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+    <!-- End Navbar -->
+
+        <style>
+ .icon 
+    {
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+    .navbar-brand img 
+    {
+        height: 85px !important;
+    }
+    .navbar-nav .nav-link 
+    {
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    .btn
+    {
+        float: right;
+    }
+    .card-background .full-background 
+    {
+        background-position: top !important;
+    }
+    .icon-lg 
+    {
+        width: 5rem !important;
+        height: 5rem !important;
+    }
+    .card-project 
+    {
+        min-height: 137px !important;
+    }
+    .card-project .card-body
+    {
+      height: 1px;
+    }
+    .fix-top.scrolled 
+    {
+      background-color: #fff !important;
+      transition: background-color 200ms linear;
+    }
+    .fix-top.scrolled .nav-link 
+    {
+      color:#555 !important;
+    }
+    .tinted-image 
+    {
+      width: 100% !important;
+      background:linear-gradient(rgb(255 0 0 / 80%),rgb(72 5 5 / 80%)),url("https://www.sanjuancity.gov.ph/SanJuanCity/assets/pinaglabanan.png");
+      background-repeat: no-repeat;
+    }
+    .footer 
+    {
+      background: #f4f5f7;
+      padding: 0 !important;
+    }
+    .space
+    {
+      margin-top: 105px !important;
+    }
+    .bgcolor
+    {
+      background-color: #1b2560;
+    }
+    .card-profile[data-background="cover"] .pattern 
+    {
+      position: absolute;
+      top: 0% !important;
+    }
+    .card-profile .card-avatar .img 
+    {
+    width: 100%;
+    border: 3px solid #fff;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    border-radius: 20% !important;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    }
+    .card-header
+    {
+      padding: 0% !important;
+    }
+    .sections-page [class*="features-"], .sections-page [class*="blogs-"], .sections-page [class*="team-"], .sections-page [class*="projects-"], .sections-page [class*="pricing-"], .sections-page [class*="testimonials-"], .sections-page [class*="contactus-"] 
+    {
+      padding: 0% !important;
+    }
+    .display-3 
+    {
+      font-size: 2.1875rem;
+      font-weight: 700;
+      line-height: 1.5;
+      margin-top: 5% !important;
+      margin-bottom: -5% !important;
+    }
+    .page-header
+    {
+      min-height: 66vh !important;
+    }
+    .page-header .content-center
+    {
+      top: 43% !important;
+    }
+    .header-3 .positioned
+    {
+      top: 3% !important;
+    }
+    .info.info-horizontal:hover {
+        background-color: #1b2560 !important;
+        color: antiquewhite;
+        height: 100% !important;
+      }
+      h5.title.titlewhite {
+        color: white;
+    }
+    p.titlewhite {
+        color: white;
+    }
+    .card-background:after {
+      background: rgb(25 1 1 / 50%) !important;
+      }
+    .projects-3 .card-background {
+      padding: 0 49px !important;
+      height: 85% !important;
+      }
+    .card-background .card-body {
+      padding-top: 25px;
+      padding-bottom: 0px !important;
+      min-height: 260px;
+    }
+    .icon-shape {
+    padding: 0px;
+    }
+    .icon {
+    width: 7rem;
+    height: 7rem;
+    }
+    .secard:hover .card-title{
+     text-shadow: 2px 2px #FF0000;
+    }
+    .secard, .card-title{
+        font-weight: 800;
+    }
+    .secard:hover{
+      box-shadow: 0 7px 5px 2px rgb(0 0 0 / 50%);
+    }
+    .secard{
+      transition: 0.3s;
+    }
+    .card-title{
+      transition: 1s;
+    }
+    .card.card-background.secard {
+      border-radius: 10px;
+    }
+    ::after {
+      border-radius: 10px;
+    }
+    .secard:hover .icon.icon-shape.bg-gradient-white.shadow.rounded-circle.mb-3{
+      border: 3px solid #ea2b2b;
+    }
+    .icon.icon-shape.bg-gradient-white.shadow.rounded-circle.mb-3 {
+      transition: 0.2s;
+    }
+    @media  screen and (max-width: 425px){
+    .projects-3 {
+      padding: 20px 0 !important;
+     }
+   }
+    </style>
+    
+    <div class="container" aria-hidden="true" id="deptpageban" style="width:100% !important; max-width: 100%;">
+        <div class="row">
+            <div class="col-12" style=" width: 100% !important; padding-right: 0 !important; padding-left: 0 !important;">
+            <img style=" width: 100%;" src="https://www.sanjuancity.gov.ph/SanJuanCity/assets/BANNERS/Head Banners/TOURISM - SJ SHOPS.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="section features-7 mt-5">
+        <div class="container">
+            <div class="row">
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php199D.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Koomi</h5>
+                    <p class="card-description">Virra Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php4590.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Kenny Rogers</h5>
+                    <p class="card-description">Lifestyle Bldg. GSC</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php72EA.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Champion Hotpot</h5>
+                    <p class="card-description">G/F, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpD57E.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Mann Hann</h5>
+                    <p class="card-description">J. Abad Santos</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php1305.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Scout&#039;s Honor</h5>
+                    <p class="card-description">G/F, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php624F.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">FootZone Health Center Inc.</h5>
+                    <p class="card-description">Annapolis</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php115F.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Hanamaruken Ramen</h5>
+                    <p class="card-description">G/F, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php783A.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Faith Leap Ventures Inc.</h5>
+                    <p class="card-description">San Juan</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php88C2.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">GemTime Plus Store</h5>
+                    <p class="card-description">Theater Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpB09F.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Whistle Toys Cafe</h5>
+                    <p class="card-description">Shoppesville</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php1797.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Jollibee</h5>
+                    <p class="card-description">Virra Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php9B63.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">New Sunbeam</h5>
+                    <p class="card-description">Greenhills</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php6CE.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Milk Barn</h5>
+                    <p class="card-description">G/F, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php6896.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Won Ton Restaurant</h5>
+                    <p class="card-description">Shoppesville</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpBAF2.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Oyasumi Ramen</h5>
+                    <p class="card-description">P. Guevarra, Brgy. Sta Lucia</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php5378.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Banh Mi Kitchen</h5>
+                    <p class="card-description">3/F, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php9AD3.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Kape Imperial</h5>
+                    <p class="card-description">Unit-D, 197 Wilson St., San Juan</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpFE70.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">SGS House of Minis</h5>
+                    <p class="card-description">Shoppesville</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php29D6.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Banana Leaf</h5>
+                    <p class="card-description">Promenade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php7C1F.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Heart Factory</h5>
+                    <p class="card-description">Ortigas Avenue, Greenhills, San Juan, 1500 Metro Manila</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpDF44.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Altersmith Alterations Shop</h5>
+                    <p class="card-description">2/F, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php85A3.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Cogon Resto Bar and Grill</h5>
+                    <p class="card-description">33 Eisenhower St., Greenhills, San Juan</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php27F6.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">SunGears Sale Inc.</h5>
+                    <p class="card-description">Virra Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpD357.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Marugame Udon</h5>
+                    <p class="card-description">O-Square 1</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php4CA6.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Time and Gems Enterprises</h5>
+                    <p class="card-description">Greenhills</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php2556.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Macao Imperial Tea</h5>
+                    <p class="card-description">Virra Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php5579.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">UCC Cafe Terrace</h5>
+                    <p class="card-description">Pavilions, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpFEA0.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">The Travel Club</h5>
+                    <p class="card-description">Virra Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php730B.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Melirose</h5>
+                    <p class="card-description">Greenhills</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php362C.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Casa Reyes</h5>
+                    <p class="card-description">Promenade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php8A55.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Sugarhouse</h5>
+                    <p class="card-description">Bridgeway Shop</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php7D58.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Toy Kingdom</h5>
+                    <p class="card-description">Virra Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpD9E0.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Mann Hann</h5>
+                    <p class="card-description">Shoppesville and J. Abad Santos</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php8A2.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Bulacan Lugaw Kitchen</h5>
+                    <p class="card-description">Connecticut Arcade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php54DF.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Coco Ichibanya</h5>
+                    <p class="card-description">Greenhills Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpA292.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Hobbiestock Collectibles</h5>
+                    <p class="card-description">Greenhills</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpC50D.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Pancake House</h5>
+                    <p class="card-description">Pavilions, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpDA0E.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Bangus</h5>
+                    <p class="card-description">Greenhills Shopping Center</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php1D23.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Goldilocks</h5>
+                    <p class="card-description">Promenade and Greenlanes</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpF863.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Sibyulle Flavors of Seoul</h5>
+                    <p class="card-description">Promenade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php6151.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Shakeys</h5>
+                    <p class="card-description">Greenlane</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpEEDD.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Racks</h5>
+                    <p class="card-description">Connecticut Arcade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php29B4.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Breadtalk</h5>
+                    <p class="card-description">Virra Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php68E1.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Tittos Latin BBQ</h5>
+                    <p class="card-description">Greenhills Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php2957.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Auntie Annes</h5>
+                    <p class="card-description">Theater Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpCA92.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">WRC Toys</h5>
+                    <p class="card-description">J. Abad Santos</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php9F05.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Yoshimeatsu</h5>
+                    <p class="card-description">Greenhills Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpDC9C.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Yellow Cab</h5>
+                    <p class="card-description">Connecticut Arcade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php1205.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Black Scoop Cafe</h5>
+                    <p class="card-description">Greenhills Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php9A91.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Sisig Hooray</h5>
+                    <p class="card-description">Pavilions, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php5FB9.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Serenitea</h5>
+                    <p class="card-description">Connecticut Arcade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpB5B9.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Samgyup Masarap</h5>
+                    <p class="card-description">Connecticut Arcade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php1995.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Max&#039;s Restaurant</h5>
+                    <p class="card-description">Connecticut Arcade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php5A39.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Jay-J&#039;s Chicken Inasal</h5>
+                    <p class="card-description">Greenhills Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php2046.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Cibo Restaurant</h5>
+                    <p class="card-description">Promenade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpBD87.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">DIY Hardware</h5>
+                    <p class="card-description">Greenhills Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpC95.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Salad Stop</h5>
+                    <p class="card-description">Promenade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php8F9.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Pho Hoa</h5>
+                    <p class="card-description">Virra Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php4346.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Red Mango</h5>
+                    <p class="card-description">Promenade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php38F3.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Mister Donut</h5>
+                    <p class="card-description">Greenlane</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php75FD.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Jollibee (N. Domingo)</h5>
+                    <p class="card-description">N. Domingo</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php8C90.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Krispy Kreme</h5>
+                    <p class="card-description">Greenhills</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php75B1.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Seattle&#039;s Best Coffee</h5>
+                    <p class="card-description">Cardinal Santos</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpA955.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Potato Corner</h5>
+                    <p class="card-description">Bridgeway shops gsc, greenhills, san juan</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpAAF9.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Tuen Mun Street Foods</h5>
+                    <p class="card-description">93 Jose Abad Santos St. Brgy. Little Baguio</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php18D9.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">The Mandara Spa</h5>
+                    <p class="card-description">Annapolis st., Greenhills</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php49BE.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Jollibee (F. Manalo)</h5>
+                    <p class="card-description">F. Manalo</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php8A81.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Botejyu</h5>
+                    <p class="card-description">O Square, Greenhills Shopping Center</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpE6F9.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Las Paellas</h5>
+                    <p class="card-description">Promenade</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpE4A8.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Gem Time Plus</h5>
+                    <p class="card-description">Theater Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpFF30.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Sideshow toys and collectibles</h5>
+                    <p class="card-description">Unit U-07 Upper Level Shoppesville Plus Greenhills, San Juan</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php1444.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">ACAMI MASSAGE</h5>
+                    <p class="card-description">Unit U-07 Upper Level Shoppesville Plus Greenhills, San Juan</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php7764.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Bawai&#039;s</h5>
+                    <p class="card-description">O Square 2, Greenhills</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpC20B.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Anytime Fitness</h5>
+                    <p class="card-description">3/F, Santolan Town Plaza</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpCF88.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Goldilocks</h5>
+                    <p class="card-description">Greenhills and Theater Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpE4B7.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Plains &amp; Prints</h5>
+                    <p class="card-description">30 Ortigas Ave , Greenhills, San Juan City</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpE97.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Black Sheep Coffee</h5>
+                    <p class="card-description">Greenhills Mall</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php3375.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Ramen Nagi</h5>
+                    <p class="card-description">O Square 2, Greenhills</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php57D0.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Fantastic Good Food Inc.</h5>
+                    <p class="card-description">387 P. Guevarra St., Addition Hills , San Juan City</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php68FD.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Mang Inasal</h5>
+                    <p class="card-description">O Square, Greenhills Shopping Center</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/php8408.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">BEAN BREWERS MANILA COFFEE</h5>
+                    <p class="card-description">Promenade Hall, Greenhills, San Juan City</p>
+                  </div>
+                </div>
+              </div>
+                          <div class="col-lg-4 col-md-6">
+                <div class="card" style="height: 85%;">
+                  <div class="card-body text-center p-4">
+                    
+                      <img src="https://www.sanjuancity.gov.ph/SanJuanCity/uploads/VIPStores/phpA618.tmp.png" alt="Circle image" class="img-fluid rounded-circle shadow" style="width: 100px;">
+                    
+                    <h5 class="card-title mt-3 mb-0">Meat Depot</h5>
+                    <p class="card-description">O Square, Greenhills Shopping Center</p>
+                  </div>
+                </div>
+              </div>
+                        </div>
+          </div>
+      </div>
+
+    <!-- Start of footer -->
+    <footer class="tinted-image">
+      <div class="container">
+        <div class="row row-grid align-items-center">
+          <div class="col-lg-4" style="justify-center: center;">
+            <h5 class="mb-2" style="color: white !important;">TERMS</h5>
+            <a href="https://www.sanjuancity.gov.ph/SanJuanCity/Makabagong_SJ_Terms_of_Use" class="mb-2" style="color: white !important; font-size: 19px;">Terms of Use</a> <br>
+            <a href="https://www.sanjuancity.gov.ph/SanJuanCity/Makabagong_SJ_Privacy_Notice" class="mb-2" style="color: white !important; font-size: 19px;" >Privacy Notice</a>
+          </div>
+          <div class="col-lg-4" style="justify-content: center;">
+            <h5 class="mb-2" style="color: white !important;">GOV links</h5>
+            <a target="_blank" href="https://www.gov.ph/" target="_blank" class="mb-2" style="color: white !important; font-size: 19px;" >National Links</a> <br>
+            <a target="_blank" href="https://www.dilg.gov.ph/" target="_blank" class="mb-2" style="color: white !important; font-size: 19px;" >DILG</a>
+          </div>
+          <div class="col-lg-4" style="justify-content: center;">
+            <h5 class="mt-5 mb-2" style="color: white !important; font-size:16px;">CONTACT INFORMATION</h5>
+            <h5 class="mb-2" style="color: white !important; font-size:16px;">Hotline: 137-135</h5>
+            <h5 class="mb-2" style="color: white !important; font-size:16px;">Email: publicinfo@sanjuancity.gov.ph</h5>
+            <h5 class="mb-2" style="color: white !important; font-size:16px;">Office Hours: 8:00am to 5:00pm</h5>
+            <h5 class="mb-2" style="color: white !important; font-size:16px;">Office Days: Monday to Friday</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="footer" style="height: 30px; background-color:brown;">
+      <div class="container col-12" style="height:10px;">
+        <p style="text-align: center; font-weight:600; color: white;">SAN JUAN CITY © ALL RIGHTS RESERVED</p>
+      </div>
+    </footer>
+  <!-- End of Footer -->
+
+  <!--   Core JS Files   -->
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/core/jquery.min.js" type="text/javascript"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/core/popper.min.js" type="text/javascript"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/core/bootstrap.min.js" type="text/javascript"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/bootstrap-switch.js"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/nouislider.min.js" type="text/javascript"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/glide.js" type="text/javascript"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/moment.min.js"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/choices.min.js" type="text/javascript"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/datetimepicker.js" type="text/javascript"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/jasny-bootstrap.min.js"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/plugins/headroom.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/argon-design-system.min.js" type="text/javascript"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/script.js"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/evo-calendar.min.js"></script>
+  <script src="https://www.sanjuancity.gov.ph/SanJuanCity/js/evo-calendar.js"></script>
+  <script>
+    // Carousel
+    new Glide('.glide', {
+      type: 'carousel',
+      startAt: 0,
+      focusAt: 2,
+      perTouch: 1,
+      perView: 4
+    }).mount();
+
+    // Testimonial Carousel
+    new Glide('.testimonial-glide', {
+      type: 'carousel',
+      startAt: 0,
+      focusAt: 2,
+      perTouch: 1,
+      perView: 4
+    }).mount();
+
+    ArgonKit.initGoogleMaps();
+    ArgonKit.initGoogleMaps2();
+  </script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+  <script>
+    window.TrackJS &&
+      TrackJS.install({
+        token: "ee6fab19c5a04ac1a32a645abde4613a",
+        application: "argon-design-system-pro"
+      });
+  </script>
+  <script>
+      $(document).ready(function()
+      {
+          var interval = setInterval(function()
+          {
+          var momentNow = moment();
+          $('#date-part').html(momentNow.format('dddd') + ' | ' + momentNow.format('MMMM DD, YYYY') + ' | ' + momentNow.format('hh:mm A'));
+          }, 100);
+
+      $(function ()
+      {
+      $(document).scroll(function ()
+        {
+        var $nav = $(".fix-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+
+      });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
+  
+</html>
